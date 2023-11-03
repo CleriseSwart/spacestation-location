@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISS Location</title>
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Container for the main content of the app -->
+    <div class="container">
+        <!-- Heading for the app -->
+        <h1>International Space Station Location</h1>
+        <!-- Display the latitude and longitude of the ISS -->
+        <div class="location">
+            <p>Latitude: <span id="latitude">Loading...</span></p>
+            <p>Longitude: <span id="longitude">Loading...</span></p>
+        </div>
+    </div>
+    
+    <!-- Background elements for the visual representation -->
+    <div class="backg">
+		<!-- Visual representation of a planet with rings and shadow -->
+		<div class="planet">
+			<div class="r1"></div>
+			<div class="r2"></div>
+			<div class="r3"></div>
+			<div class="r4"></div>
+			<div class="r5"></div>
+			<div class="r6"></div>
+			<div class="r7"></div>
+			<div class="r8"></div>
+			<div class="shad"></div>
+		</div>
+		
+		<!-- Stars in the background -->
+		<div class="stars">
+			<div class="s1"></div>
+			<div class="s2"></div>
+			<div class="s3"></div>
+			<div class="s4"></div>
+			<div class="s5"></div>
+			<div class="s6"></div>
+		</div>
+		
+		<!-- Animated astronaut and equipment -->
+		<div class="an">
+			<div class="tank"></div>
+			<div class="astro">
+				<!-- Astronaut's helmet with a glass visor -->
+				<div class="helmet">
+					<div class="glass">
+						<div class="shine"></div>
+					</div>
+				</div>
+				<!-- Astronaut's space suit and control buttons -->
+				<div class="dress">
+					<div class="c">
+						<div class="btn1"></div>
+						<div class="btn2"></div>
+						<div class="btn3"></div>
+						<div class="btn4"></div>
+					</div>
+				</div>
+				<!-- Astronaut's left hand with a glove -->
+				<div class="handl">
+					<div class="handl1">
+						<div class="glovel">
+							<div class="thumbl"></div>
+							<div class="b2"></div>
+						</div>
+					</div>
+				</div>
+				<!-- Astronaut's right hand with a glove -->
+				<div class="handr">
+					<div class="handr1">
+						<div class="glover">
+							<div class="thumbr"></div>
+							<div class="b1"></div>
+						</div>
+					</div>
+				</div>
+				<!-- Astronaut's left leg and boot -->
+				<div class="legl">
+					<div class="bootl1">
+						<div class="bootl2"></div>
+					</div>
+				</div>
+				<!-- Astronaut's right leg and boot -->
+				<div class="legr">
+					<div class="bootr1">
+						<div class="bootr2"></div>
+					</div>
+				</div>
+				<!-- Air supply pipe for the astronaut -->
+				<div class="pipe">
+					<div class="pipe2">
+						<div class="pipe3"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+    </div>
+    
+    <!-- Include JavaScript file for functionality -->
+    <script src="script.js"></script>
+</body>
+</html>
